@@ -10,3 +10,6 @@
 ####spring MVC 静态资源的问题 最好放在webapp目录下
 ####页面使用Free Bootstrap Theme--Worthy
 
+
+###2016/3/15
+####前端施工中，主页：修改CSS, 添加背景图片
