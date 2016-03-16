@@ -10,10 +10,11 @@
 <link rel="shortcut icon"
 	href="${pageContext.request.contextPath}/resources/images/icon3.ico">
 
-<link href="${pageContext.request.contextPath}/resources/css/cover.css"
+<link href="${pageContext.request.contextPath}/resources/css/cover2.css"
 	rel="stylesheet">
 
 </head>
+
 <body>
 
 	<div class="site-wrapper">
@@ -26,8 +27,8 @@
 					<div class="inner">
 
 						<nav class="nav nav-masthead">
-							<a class="nav-link active" href="#">主页</a> <a class="nav-link"
-								href="#">Features</a> <a class="nav-link" href="contactme">联系我</a>
+							<a class="nav-link" href="home">主页</a> <a class="nav-link"
+								>Features</a> <a class="nav-link active" href="#">联系我</a>
 						</nav>
 						<nav class="nav nav-masthead" style="float: left">
 							<i class="nav-link">${today}</i> <i class="nav-link">${time}</i><i id="dtime" class="nav-link"></i>
