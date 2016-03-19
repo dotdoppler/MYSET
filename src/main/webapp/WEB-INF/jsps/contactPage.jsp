@@ -27,15 +27,34 @@
 					<div class="inner">
 
 						<nav class="nav nav-masthead">
-							<a class="nav-link" href="home">主页</a> <a class="nav-link"
-								>Features</a> <a class="nav-link active" href="#">联系我</a>
+							<a class="nav-link" href="home">主页</a> <a class="nav-link">Features</a>
+							<a class="nav-link active" href="#">联系我</a>
 						</nav>
 						<nav class="nav nav-masthead" style="float: left">
-							<i class="nav-link">${today}</i> <i class="nav-link">${time}</i><i id="dtime" class="nav-link"></i>
+							<i class="nav-link">${today}</i> <i class="nav-link">${time}</i><i
+								id="dtime" class="nav-link"></i>
 						</nav>
 					</div>
 				</div>
-
+				<div class="inner cover">
+					<h1 class="cover-heading" >
+						<div class="input-group" >
+							<span class="input-group-addon" id="basic-addon1">Name</span> <input
+								type="text" class="form-control"   style="width:15%"
+								aria-describedby="basic-addon1">
+						</div>
+					</h1>
+					<h1 class="cover-heading"><div class="input-group" >
+							<span class="input-group-addon" id="basic-addon1">E-mail</span> <input
+								type="text" class="form-control"  style="width:15%"
+								aria-describedby="basic-addon1">
+						</div></h1>
+					<h1 class="cover-heading"><div class="input-group" >
+							<span class="input-group-addon" id="basic-addon1">Message</span> <input
+								type="text" class="form-control"   style="width:15%"
+								aria-describedby="basic-addon1">
+						</div></h1>
+				</div>
 
 
 
@@ -54,6 +73,7 @@
 <script
 	src="${pageContext.request.contextPath}/resources/js/util/tools.js"></script>
 <script type="text/javascript">
-</script>	
+	
+</script>
 
 </html>

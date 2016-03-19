@@ -19,3 +19,6 @@
 ####单例模式 静态工厂方法 DateUtil
 #### 搞清楚spring mvc的viewResolver到底怎么用 搞了一下午一晚上还是不怎么清楚啊日
 #### ViewandModel......
+
+###2016/3/20
+####working.....hate css.
