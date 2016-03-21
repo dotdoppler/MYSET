@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
 	http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
 	
-	<display-name>MYSET</display-name>
+	<display-name>OneLibrary</display-name>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/configs/spring/applicationContext.xml</param-value>

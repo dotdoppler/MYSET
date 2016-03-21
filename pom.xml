@@ -2,9 +2,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>pers.doppler</groupId>
-  <artifactId>MYSET</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>MYSET</name>
+  <name>OneLibrary</name>
   <url>http://maven.apache.org</url>
   <properties>
 		<springversion>4.2.5.RELEASE</springversion>
@@ -162,7 +161,18 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
         </plugin>
+           <!-- define the project compile level -->  
+        <plugin>  
+            <groupId>org.apache.maven.plugins</groupId>  
+            <artifactId>maven-compiler-plugin</artifactId>  
+            <version>2.3.2</version>  
+            <configuration>  
+                <source>1.8</source>  
+                <target>1.8</target>  
+            </configuration>  
+        </plugin>  
         </plugins>
   </build>
 	<packaging>war</packaging>
+	<artifactId>OneLibrary</artifactId>
 </project>
