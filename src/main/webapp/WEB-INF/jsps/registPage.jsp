@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,22 +29,30 @@
 		
 			<p class="login-box-msg">Register a new membership</p>
 
-			<form action="hi" method="post" id="form">
+			<form action="register" method="post" id="form">
 				<div class="form-group has-feedback">
 					<div>
-						LoginName&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;<input type="email" placeholder="dotdoppler@yeah.net" required="required">
+						LoginName&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+						<input type="email" placeholder=" dotdoppler@yeah.net" required="required" name="loginName">
 					</div>
 
 				</div>
-
 				<div class="form-group has-feedback">
 					<div>
-						Password &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="password" required="required" id="pwd">
+						name&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+						<input type="text" placeholder=" enter your name" required="required" name="name">
+					</div>
+
+				</div>
+				<div class="form-group has-feedback">
+					<div>
+						Password &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+						<input type="password" required="required" id="pwd"  name="password" placeholder=" enter your password">
 					</div>
 				</div>
 				<div class="form-group has-feedback">
 					<div>
-						Retype password <input type="password" required="required" id="retype">
+						Retype password&nbsp; <input type="password" required="required" id="retype" placeholder=" retype your password">
 					</div>
 				</div>
 				<div>
