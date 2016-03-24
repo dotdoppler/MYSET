@@ -16,7 +16,7 @@
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
-        <!--生成Model类存放位置-->
+        <!--生成实体类存放位置-->
         <javaModelGenerator targetPackage="doppler.domain" targetProject="src">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
