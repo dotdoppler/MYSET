@@ -11,21 +11,15 @@
     "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
-	<properties resource="resources/configs/jdbc.properties" />
+	<properties resource="jdbc.properties" />
 	<settings>
+	 	<setting name="logImpl" value="LOG4J"/>  
 		<setting name="useGeneratedKeys" value="false" />
 		<setting name="useColumnLabel" value="true" />
 	</settings>
-
-	<typeAliases>
-		<typeAlias alias="UserAlias"
-			type="org.apache.ibatis.submitted.complex_property.User" />
-	</typeAliases>
-
 	<environments default="development">
 		<environment id="development">
 			<transactionManager type="JDBC" />
-
 			<dataSource type="POOLED">
 				<property name="driver" value="${driver}" />
 				<property name="url" value="${url}" />
@@ -36,7 +30,8 @@
 	</environments>
 
 	<mappers>
-		<mapper resource="doppler.domain.mapping.UserMapper.xml" />
+		
+		<mapper class="doppler.dao.UserDao"/>  
 	</mappers>
 
 </configuration>

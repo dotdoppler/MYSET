@@ -1,0 +1,463 @@
+2016-03-25 09:45:15 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:47:03 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:47:21 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:47:37 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:48:14 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:48:15 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:48:15 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:48:15 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:48:15 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:48:15 JakartaCommonsLoggingImpl.java DEBUG Opening JDBC Connection
+2016-03-25 09:51:59 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:51:59 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:51:59 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:51:59 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:51:59 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:51:59 JakartaCommonsLoggingImpl.java DEBUG Opening JDBC Connection
+2016-03-25 09:52:42 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 09:52:42 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:52:42 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:52:42 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:52:42 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 09:52:42 JakartaCommonsLoggingImpl.java DEBUG Opening JDBC Connection
+2016-03-25 10:06:45 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:06:45 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:06:45 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:06:45 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:06:45 JakartaCommonsLoggingImpl.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:06:45 JakartaCommonsLoggingImpl.java DEBUG Opening JDBC Connection
+2016-03-25 10:17:25 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:17:25 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:17:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:17:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:17:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:17:25 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:17:25 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:22:19 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:22:19 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:22:19 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:22:19 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:22:19 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:22:19 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:22:19 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:23:37 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:23:37 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:23:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:23:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:23:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:23:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:23:37 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:26:47 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:26:47 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:26:47 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:26:47 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:26:47 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:26:47 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:26:47 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:27:51 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:27:51 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:27:51 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:27:51 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:27:51 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:27:51 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:27:52 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:27:52 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 10:27:52 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:27:52 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 10:27:52 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:27:52 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:27:52 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 10:33:50 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:33:50 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:33:50 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:33:50 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:33:50 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:33:50 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:33:50 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:33:51 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 10:33:51 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:33:51 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 10:33:51 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 10:33:51 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 10:33:51 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:33:51 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:33:51 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 10:37:07 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:37:08 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:37:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:37:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:37:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:37:08 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:37:08 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:37:08 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 10:37:08 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:37:08 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 10:37:08 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 10:37:08 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 10:37:08 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:37:08 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:37:08 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 10:42:58 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:42:58 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:42:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:42:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:42:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:42:58 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:42:58 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:42:59 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 10:42:59 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:42:59 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 10:42:59 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 10:42:59 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 10:42:59 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:42:59 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 10:42:59 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 10:44:26 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:44:26 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:44:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:44:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:44:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:44:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:44:26 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2016-03-25 10:44:26 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2016-03-25 10:44:26 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2016-03-25 10:44:26 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2016-03-25 10:44:26 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Find JAR URL: file:/E:/workspace/OneLibrary/target/classes/doppler/dao
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Not a JAR: file:/E:/workspace/OneLibrary/target/classes/doppler/dao
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Reader entry: UserDao.class
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Listing file:/E:/workspace/OneLibrary/target/classes/doppler/dao
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Find JAR URL: file:/E:/workspace/OneLibrary/target/classes/doppler/dao/UserDao.class
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Not a JAR: file:/E:/workspace/OneLibrary/target/classes/doppler/dao/UserDao.class
+2016-03-25 10:44:26 DefaultVFS.java DEBUG Reader entry: ����   4   doppler/dao/UserDao  java/lang/Object getAllUsers ()Ljava/util/List; 	Signature )()Ljava/util/List<Ldoppler/domain/User;>; getUser *(Ljava/lang/Integer;)Ldoppler/domain/User; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value #select * from User where id = #{id} save ,(Ldoppler/domain/User;)Ldoppler/domain/User; update delete '(Ljava/lang/Long;)Ldoppler/domain/User; 
+2016-03-25 10:44:26 ResolverUtil.java DEBUG Checking to see if class doppler.dao.UserDao matches criteria [is assignable to Object]
+2016-03-25 10:46:34 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:46:34 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:46:34 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:46:34 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:46:34 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:46:34 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:46:34 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2016-03-25 10:46:34 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2016-03-25 10:46:34 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2016-03-25 10:46:34 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2016-03-25 10:46:34 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Find JAR URL: file:/E:/workspace/OneLibrary/target/classes/doppler/dao
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Not a JAR: file:/E:/workspace/OneLibrary/target/classes/doppler/dao
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Reader entry: UserDao.class
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Listing file:/E:/workspace/OneLibrary/target/classes/doppler/dao
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Find JAR URL: file:/E:/workspace/OneLibrary/target/classes/doppler/dao/UserDao.class
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Not a JAR: file:/E:/workspace/OneLibrary/target/classes/doppler/dao/UserDao.class
+2016-03-25 10:46:34 DefaultVFS.java DEBUG Reader entry: ����   4   doppler/dao/UserDao  java/lang/Object getAllUsers ()Ljava/util/List; 	Signature )()Ljava/util/List<Ldoppler/domain/User;>; getUser *(Ljava/lang/Integer;)Ldoppler/domain/User; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value #select * from User where id = #{id} save ,(Ldoppler/domain/User;)Ldoppler/domain/User; &Lorg/apache/ibatis/annotations/Insert;   update &Lorg/apache/ibatis/annotations/Update; delete '(Ljava/lang/Long;)Ldoppler/domain/User; &Lorg/apache/ibatis/annotations/Delete; 
+2016-03-25 10:46:34 ResolverUtil.java DEBUG Checking to see if class doppler.dao.UserDao matches criteria [is assignable to Object]
+2016-03-25 10:48:26 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:48:26 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:48:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:48:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:48:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:48:26 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:48:26 VFS.java DEBUG Class not found: org.jboss.vfs.VFS
+2016-03-25 10:48:26 JBoss6VFS.java DEBUG JBoss 6 VFS API is not available in this environment.
+2016-03-25 10:48:26 VFS.java DEBUG Class not found: org.jboss.vfs.VirtualFile
+2016-03-25 10:48:26 VFS.java DEBUG VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2016-03-25 10:48:26 VFS.java DEBUG Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2016-03-25 10:48:26 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:48:27 PooledDataSource.java DEBUG Created connection 1050349584.
+2016-03-25 10:48:27 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e9b1010]
+2016-03-25 10:48:27 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 10:48:27 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 10:48:27 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 10:48:27 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e9b1010]
+2016-03-25 10:48:27 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3e9b1010]
+2016-03-25 10:48:27 PooledDataSource.java DEBUG Returned connection 1050349584 to pool.
+2016-03-25 10:49:41 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:49:41 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:49:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:49:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:49:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:49:41 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:54:46 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:54:46 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:54:46 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:54:46 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:54:46 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:54:46 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:27 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:57:27 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:57:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:27 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:54 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 10:57:54 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 10:57:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:54 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 10:57:54 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 10:57:54 PooledDataSource.java DEBUG Created connection 13329486.
+2016-03-25 10:57:54 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 10:57:54 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 10:57:55 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 10:57:55 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 10:57:55 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 10:57:55 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 10:57:55 PooledDataSource.java DEBUG Returned connection 13329486 to pool.
+2016-03-25 11:00:13 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:00:13 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:00:13 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:13 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:13 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:13 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:13 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:00:13 PooledDataSource.java DEBUG Created connection 1924582348.
+2016-03-25 11:00:13 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@72b6cbcc]
+2016-03-25 11:00:13 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:00:13 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:00:14 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:00:14 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@72b6cbcc]
+2016-03-25 11:00:14 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@72b6cbcc]
+2016-03-25 11:00:14 PooledDataSource.java DEBUG Returned connection 1924582348 to pool.
+2016-03-25 11:00:22 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:00:23 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:00:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:00:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:01 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:03:01 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:03:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:01 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:01 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:03:02 PooledDataSource.java DEBUG Created connection 13329486.
+2016-03-25 11:03:02 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:03:02 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:03:02 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:03:02 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:03:02 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:03:02 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:03:02 PooledDataSource.java DEBUG Returned connection 13329486 to pool.
+2016-03-25 11:03:16 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:03:16 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:03:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:16 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:03:16 PooledDataSource.java DEBUG Created connection 1268066861.
+2016-03-25 11:03:16 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:03:16 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:03:16 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:03:16 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:03:16 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:03:16 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:03:16 PooledDataSource.java DEBUG Returned connection 1268066861 to pool.
+2016-03-25 11:03:39 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:03:39 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:03:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:39 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:03:40 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 11:03:40 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:03:40 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 11:03:40 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:03:40 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:03:40 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:03:40 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:03:40 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 11:03:44 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:03:44 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:03:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:03:44 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:49 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:41:49 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:41:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:49 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:41:50 PooledDataSource.java DEBUG Created connection 1268066861.
+2016-03-25 11:41:50 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:41:50 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:41:50 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:41:50 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:41:50 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:41:50 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:41:50 PooledDataSource.java DEBUG Returned connection 1268066861 to pool.
+2016-03-25 11:41:57 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:41:57 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:41:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:41:57 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:41:58 PooledDataSource.java DEBUG Created connection 13329486.
+2016-03-25 11:41:58 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:41:58 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:41:58 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:41:58 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:41:58 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:41:58 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:41:58 PooledDataSource.java DEBUG Returned connection 13329486 to pool.
+2016-03-25 11:42:21 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:42:21 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:42:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:21 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:21 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:42:22 PooledDataSource.java DEBUG Created connection 13329486.
+2016-03-25 11:42:22 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:42:22 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:42:22 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:42:22 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:42:22 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:42:22 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:42:22 PooledDataSource.java DEBUG Returned connection 13329486 to pool.
+2016-03-25 11:42:35 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:42:35 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:42:35 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:35 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:35 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:35 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:35 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:42:36 PooledDataSource.java DEBUG Created connection 13329486.
+2016-03-25 11:42:36 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:42:36 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:42:36 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:42:36 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:42:36 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:42:36 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:42:36 PooledDataSource.java DEBUG Returned connection 13329486 to pool.
+2016-03-25 11:42:39 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:42:39 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:42:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:42:39 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:42:40 PooledDataSource.java DEBUG Created connection 1268066861.
+2016-03-25 11:42:40 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:42:40 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:42:40 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:42:40 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:42:40 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:42:40 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:42:40 PooledDataSource.java DEBUG Returned connection 1268066861 to pool.
+2016-03-25 11:43:14 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:43:14 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:43:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:43:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:43:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:43:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:43:14 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:43:15 PooledDataSource.java DEBUG Created connection 13329486.
+2016-03-25 11:43:15 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:43:15 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:43:15 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:43:15 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:43:15 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:43:15 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@cb644e]
+2016-03-25 11:43:15 PooledDataSource.java DEBUG Returned connection 13329486 to pool.
+2016-03-25 11:52:57 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:52:57 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:52:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:52:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:52:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:52:57 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:53:37 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:53:37 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:53:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:53:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:53:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:53:37 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:54:16 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:54:16 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:54:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:54:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:54:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:54:16 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:55:00 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:55:00 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:55:00 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:55:00 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:55:00 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:55:00 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:56:23 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:56:23 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:56:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:56:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:56:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:56:23 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:33 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:58:33 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:58:33 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:33 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:33 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:33 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:33 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:58:34 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 11:58:34 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:58:34 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 11:58:34 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:58:34 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:58:34 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:58:34 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:58:34 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 11:58:39 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:58:39 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:58:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:39 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:49 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:58:49 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:58:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:49 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:58:50 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:58:50 PooledDataSource.java DEBUG Created connection 1522311648.
+2016-03-25 11:58:50 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:58:50 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from user where id=? 
+2016-03-25 11:58:50 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:58:50 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:58:50 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:58:50 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5abca1e0]
+2016-03-25 11:58:50 PooledDataSource.java DEBUG Returned connection 1522311648 to pool.
+2016-03-25 11:59:14 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 11:59:14 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 11:59:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:59:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:59:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:59:14 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 11:59:14 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 11:59:14 PooledDataSource.java DEBUG Created connection 1268066861.
+2016-03-25 11:59:14 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:59:15 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 11:59:15 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 11:59:15 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 11:59:15 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:59:15 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 11:59:15 PooledDataSource.java DEBUG Returned connection 1268066861 to pool.
+2016-03-25 12:01:12 JakartaCommonsLoggingImpl.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl' adapter.
+2016-03-25 12:01:12 LogFactory.java DEBUG Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2016-03-25 12:01:12 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 12:01:12 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 12:01:12 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 12:01:12 PooledDataSource.java DEBUG PooledDataSource forcefully closed/removed all connections.
+2016-03-25 12:01:12 JdbcTransaction.java DEBUG Opening JDBC Connection
+2016-03-25 12:01:13 PooledDataSource.java DEBUG Created connection 1268066861.
+2016-03-25 12:01:13 JdbcTransaction.java DEBUG Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 12:01:13 BaseJdbcLogger.java DEBUG ==>  Preparing: select * from User where id = ? 
+2016-03-25 12:01:13 BaseJdbcLogger.java DEBUG ==> Parameters: 1(Integer)
+2016-03-25 12:01:13 BaseJdbcLogger.java DEBUG <==      Total: 1
+2016-03-25 12:01:13 JdbcTransaction.java DEBUG Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 12:01:13 JdbcTransaction.java DEBUG Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b952a2d]
+2016-03-25 12:01:13 PooledDataSource.java DEBUG Returned connection 1268066861 to pool.

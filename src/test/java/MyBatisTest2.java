@@ -10,7 +10,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import doppler.dao.UserDao;
 import doppler.domain.User;
 
-public class MyBatisTest {
+public class MyBatisTest2 {
 	private static SqlSessionFactory sqlSessionFactory;
 	private static Reader reader;
 	static { 
@@ -27,9 +27,10 @@ public class MyBatisTest {
 		//使用xml文件
 		try {
 			
-		User user=session.selectOne("getUser", new Integer(1));
-		System.out.println("mapper with XML file :"+user.getName()+"   "+user.getLoginName());
-		
+	
+		User user=session.getMapper(UserDao.class).getUser(1);
+		System.out.println("mapper with Interface :"+user.getName()+"   "+user.getLoginName());
+			
 		} finally {
 		session.close();
 		}
