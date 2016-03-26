@@ -1,6 +1,7 @@
 package doppler.domain;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class User implements Serializable{
 
@@ -9,6 +10,7 @@ public class User implements Serializable{
 	private String loginName;
 	private String name;
 	private String password;
+	private Date registTime;
 	
 	public String getLoginName() {
 		return loginName;
@@ -33,6 +35,15 @@ public class User implements Serializable{
 	}
 	public void setId(Integer id) {
 		this.id = id;
+	}
+	public Date getRegistTime() {
+		return registTime;
+	}
+	public void setRegistTime(Date registTime) {
+		this.registTime = registTime;
+	}
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 	
 }

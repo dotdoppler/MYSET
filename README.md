@@ -46,3 +46,13 @@
 xml格式最后在编译的时候也是存放在内存中，相当于一段代码
 所以他和注解表示的作用是一样的 两个一样的东西 最后系统选择的时候肯定会报错的 因为不知道选哪一个”####
 ####原来两种方式其实是一样的
+
+
+###2016/3/26
+####xml文件中的 namespace是用来绑定接口的 官方文档还是建议用映射文件，功能更强大，注解的方式更适合执行一些简单的sql语句
+####<select>标签中的id属性对应的是接口中方法的名称
+####再用注解来试试
+####啊啊啊啊 为什么 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configLocation" value="classpath:MyBatis-Configuration.xml"></property>
+	</bean> 这个不加 就接口就和xml绑定不了啊啊啊阿   fxxxxxxxxxxx 弄了一下午####

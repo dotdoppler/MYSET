@@ -2,31 +2,32 @@ package doppler.service.impl;
 
 import java.util.List;
 
+import javax.annotation.Resource;
+
+
 import org.springframework.stereotype.Service;
 
+import doppler.dao.UserDao;
 import doppler.domain.User;
 import doppler.service.UserService;
-
 @Service("userService")
 public class UserServiceImpl implements UserService {
-
+	@Resource
+	private UserDao userDao;
+		
 	@Override
 	public List<User> getAllUsers() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-	@Override
-	public User getUser(Long id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 
 	@Override
-	public User save(User user) {
+	public void save(User user) {
 		// TODO Auto-generated method stub
-		System.out.println("call save()");
-		return null;
+		
+		 userDao.insert(user);
 	}
 
 	@Override
@@ -36,9 +37,21 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User delete(Long id) {
+	public User delete(Integer id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public User getUserById(Integer id) {
+		return userDao.getUser(id);
+	}
+
+
+	public void setUserDao(UserDao userDao) {
+		this.userDao = userDao;
+	}
+	
+
 
 }

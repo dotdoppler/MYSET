@@ -1,5 +1,7 @@
 package doppler.controller;
 
+
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Controller;
@@ -11,13 +13,14 @@ import doppler.service.UserService;
 
 @Controller
 public class RegistController {
-	@Resource(name="userService")
+	@Resource
 	private UserService userService;
 	static{
 		System.out.println("RegistController loaded");
 	}
 	@RequestMapping(value="/register",method={RequestMethod.GET})
 	public String registForm(){
+		
 		return "registPage";
 	}
 	@RequestMapping(value="/register",method={RequestMethod.POST})
@@ -26,4 +29,5 @@ public class RegistController {
 		return "loginPage";
 	}
 	
+
 }

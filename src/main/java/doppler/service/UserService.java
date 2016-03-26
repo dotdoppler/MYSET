@@ -6,8 +6,8 @@ import doppler.domain.User;
 
 public interface UserService {
 	List<User> getAllUsers();
-	User getUser(Long id);
-	User save(User user);
+	User getUserById(Integer id);
+	void save(User user);
 	User update(User user);
-	User delete(Long id);
+	User delete(Integer id);
 }

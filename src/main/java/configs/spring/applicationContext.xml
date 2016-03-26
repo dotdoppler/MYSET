@@ -14,10 +14,9 @@
         				http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
 
 	<context:annotation-config />
-	<context:component-scan base-package="doppler">
-		<context:exclude-filter type="annotation"
-			expression="org.springframework.stereotype.Controller" />
+	<context:component-scan base-package="doppler.controller,doppler.dao,doppler.service,doppler.service.impl">
 	</context:component-scan>
+	
 
 	<bean id="propertyConfigurer"
 		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -42,17 +41,14 @@
 		<property name="maxWait" value="${maxWait}"></property>
 	</bean>
 
-	<!-- spring和MyBatis完美整合，不需要mybatis的配置映射文件 -->
+	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<!-- 自动扫描mapping.xml文件 -->
-		
+		<property name="configLocation" value="classpath:MyBatis-Configuration.xml"></property>
 	</bean>
-
-	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="doppler.dao" />
-		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+		<property name="basePackage" value="doppelr.service,doppler.dao,doppler.service.impl" />
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
 	</bean>
 
 	<!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
