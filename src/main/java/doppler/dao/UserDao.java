@@ -17,4 +17,7 @@ public interface UserDao {
 
 	User delete(Long id);
 	
+	List<String> getAllLoginNames(String loginName);
+	
+	String getLoginName(String arg);
 }

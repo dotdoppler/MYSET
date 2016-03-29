@@ -44,7 +44,7 @@
 ####“当你程序需要执行的时候，系统会去寻找对应的sql语句，
 你如果存在两个 那么系统就会迷茫 不知道该选择哪一个 所以就报错了  
 xml格式最后在编译的时候也是存放在内存中，相当于一段代码
-所以他和注解表示的作用是一样的 两个一样的东西 最后系统选择的时候肯定会报错的 因为不知道选哪一个”####
+所以他和注解表示的作用是一样的 两个一样的东西 最后系统选择的时候肯定会报错的 因为不知道选哪一个”
 ####原来两种方式其实是一样的
 
 
@@ -55,4 +55,10 @@ xml格式最后在编译的时候也是存放在内存中，相当于一段代�
 ####啊啊啊啊 为什么 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation" value="classpath:MyBatis-Configuration.xml"></property>
-	</bean> 这个不加 就接口就和xml绑定不了啊啊啊阿   fxxxxxxxxxxx 弄了一下午####
+	</bean> 这个不加 就接口就和xml绑定不了啊啊啊阿   fxxxxxxxxxxx 弄了一下午
+	
+###2016/3/29	
+####处理登陆请求	
+####loginName这个字段应该是unique,注册的时候也要验证。
+####要返回List<String> resultType="String" 
+####验证功能完成中

@@ -46,11 +46,28 @@ public class UserServiceImpl implements UserService {
 	public User getUserById(Integer id) {
 		return userDao.getUser(id);
 	}
-
+	
+	@Override
+	public List<String> getAllLoginNames(String loginName) {
+		// TODO Auto-generated method stub
+		return userDao.getAllLoginNames(loginName);
+	}
 
 	public void setUserDao(UserDao userDao) {
 		this.userDao = userDao;
 	}
+
+
+
+	@Override
+	public String getLoginName(String arg) {
+		// TODO Auto-generated method stub
+		return userDao.getLoginName(arg);
+	}
+
+
+
+	
 	
 
 

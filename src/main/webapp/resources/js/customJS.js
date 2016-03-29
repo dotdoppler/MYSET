@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 
 //客户端密码校验
 function validatepwd(pwd_arg,retype_arg,form){
@@ -15,4 +13,30 @@ function validatepwd(pwd_arg,retype_arg,form){
 		return alert("retype password!");
 	}
 	
+}
+var xmlHttp;
+function creatXMLHttpRequest(){
+	if (window.ActiveXObject) {
+		xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}else if(window.XMLHttpRequest){
+		xmlHttp=new XMLHttpRequest();
+		
+	}
+}
+function checkUniqueLoginName(loginName_arg){
+	creatXMLHttpRequest();
+	var loginName=document.getElementById(loginName_arg).value;
+	var url="/OneLibrary/checkUniqueLoginName?loginName="+loginName;
+	xmlHttp.open("GET",url,true);
+	xmlHttp.onreadystatechange=showResult;
+	xmlHttp.send(null);
+	function showResult(){
+	if (xmlHttp.readyState==4) {
+		if (xmlHttp.status==200) {
+			
+			var result=xmlHttp.responseText;
+		}	
+	}
+	alert(result);
+	}
 }

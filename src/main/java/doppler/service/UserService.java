@@ -10,4 +10,6 @@ public interface UserService {
 	void save(User user);
 	User update(User user);
 	User delete(Integer id);
+	List<String> getAllLoginNames(String loginName);
+	String getLoginName(String arg);
 }

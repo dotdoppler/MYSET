@@ -8,4 +8,10 @@
 	insert into user(id,loginName,name,password,registTime) 
 	values(#{id},#{loginName},#{name},#{password},#{registTime})
 	</insert>
+	<select id="getAllLoginNames" parameterType="java.lang.String" resultType="java.lang.String">
+	SELECT loginName FROM user
+	</select>
+	<select id="getLoginName" parameterType="java.lang.String" resultType="java.lang.String">
+	SELECT loginName FROM user WHERE loginName=#{loginName}
+	</select>
 </mapper>

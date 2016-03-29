@@ -18,16 +18,15 @@
 <div class="login-box">
 <div class="login-box-body">
 <form action="" method="post">
-<div class="form-group has-feedback">UserName&nbsp;<input type="email" placeholder="Enter Email address" ></div>
-<div class="form-group has-feedback">Password&nbsp; <input type="password" placeholder="Enter Password" ></div>
+<div class="form-group has-feedback">UserName&nbsp;<input type="email" placeholder="Enter Email address" name="loginName"></div>
+<div class="form-group has-feedback">Password&nbsp; <input type="password" placeholder="Enter Password"  name="password"></div>
 
 
-<div> <button class="button" type="submit">Sign in</button>
+<div> <button class="button" type="submit">log in</button>
 <button class="button" type="button" onclick="window.location.href='register'">regist</button></div>
 </form>
 </div>
 </div>
 
 </body>
-<!-- javascript -->
 </html>

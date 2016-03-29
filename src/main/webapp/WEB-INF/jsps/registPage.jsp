@@ -33,7 +33,9 @@
 				<div class="form-group has-feedback">
 					<div>
 						LoginName&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-						<input type="email" placeholder=" dotdoppler@yeah.net" required="required" name="loginName">
+						<input type="email" placeholder=" dotdoppler@yeah.net" 
+						required="required" name="loginName" id="loginName" 
+						 onchange="checkUniqueLoginName('loginName')">
 					</div>
 
 				</div>

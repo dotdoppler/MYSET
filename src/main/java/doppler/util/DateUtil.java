@@ -21,6 +21,10 @@ public class DateUtil {
 		DateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd");
 		return dateFormat.format(date);
 	}
+	public Date getDate(){
+		return new Date();
+	}
+	
 	public String getCurrentTime(){
 		Date date=new Date();
 		DateFormat dateFormat=new SimpleDateFormat("HH:mm:ss");
