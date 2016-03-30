@@ -32,10 +32,13 @@
 			<form action="register" method="post" id="form">
 				<div class="form-group has-feedback">
 					<div>
+					<div>
 						LoginName&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
 						<input type="email" placeholder=" dotdoppler@yeah.net" 
 						required="required" name="loginName" id="loginName" 
 						 onchange="checkUniqueLoginName('loginName')">
+						</div>
+						<span ><font color="red" id="notification"></font></span>
 					</div>
 
 				</div>
@@ -58,7 +61,7 @@
 					</div>
 				</div>
 				<div>
-				<button type="button" onclick="validatepwd('pwd','retype','form')">commit</button>
+				<button type="button" onclick="validatepwd('pwd','retype','form')" id="btn" class="btn">commit</button>
 				</div>
 			</form>
 		</div>
