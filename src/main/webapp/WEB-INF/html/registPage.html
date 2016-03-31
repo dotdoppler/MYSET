@@ -1,24 +1,22 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <link
-	href="${pageContext.request.contextPath}/resources/css/bootstrap.css"
+	href="resources/css/bootstrap.css"
 	rel="stylesheet">
 <script
-	src="${pageContext.request.contextPath}/resources/js/jquery-2.2.1.js"></script>
+	src="resources/js/jquery-2.2.1.js"></script>
 <script
-	src="${pageContext.request.contextPath}/resources/js/bootstrap.js"></script>
+	src="resources/js/bootstrap.js"></script>
 	<script
-	src="${pageContext.request.contextPath}/resources/js/customJS.js"></script>
+	src="resources/js/customJS.js"></script>
 </head>
 <body
 	style="text-align: center; width: 100%; height: 100%; margin: 0px;"
 	class="hold-transition register-page">
 	<div class="register-box">
-	<img alt="" src="${pageContext.request.contextPath}/resources/images/register.jpg">
+	<img alt="" src="resources/images/register.jpg">
 		<div class="register-logo">
 			<h1>
 				<b>OneLibrary</b>
@@ -29,7 +27,7 @@
 		
 			<p class="login-box-msg">Register a new membership</p>
 
-			<form action="register" method="post" id="form">
+			<form action="regist" method="post" id="form" >
 				<div class="form-group has-feedback">
 					<div>
 					<div>
@@ -38,7 +36,7 @@
 						required="required" name="loginName" id="loginName" 
 						 onchange="checkUniqueLoginName('loginName')">
 						</div>
-						<span ><font color="red" id="notification"></font></span>
+						<span id="notification" style="color: red"></span>
 					</div>
 
 				</div>

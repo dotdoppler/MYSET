@@ -80,3 +80,17 @@ loginName这个字段应该是unique,注册的时候也要验证。
 <p>编码有问题，输入中文、日文有乱码。
 
 
+###2016/3/31
+####处理编码问题,在web.xml中配置一个过滤器，将编码设置为utf-8,目前只过滤指定路径
+####真不用jsp了，不渲染页面了，直接返回html页面。  但是这样客户端与服务器该怎样通信呢？SpringMVC可以用注解拿到指定的参数，但是对于提交表单怎么办？并没有绑定表单。
+####@RequestParam("userInputForm") User user 这样是不行的
+####@ModelAttribute  User user 要这样
+####将处理业务的代码从controller里面分离出去，放在service中
+####controller该做的事：
+<p>处理请求参数
+<p>渲染和重定向
+<p>选择model和service
+<p>处理Session和Cookie
+<p>总的说来，就是让controller去调用服务，而不是在controller里处理业务逻辑，业务是善变的，而controller不是。（Command 命令模式）
+<p>把代码分离出去了，controller看着清爽多了。
+
