@@ -1,10 +1,13 @@
 package doppler.controller;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import doppler.service.UserService;
 
@@ -14,9 +17,26 @@ public class LoginController {
 	@Resource(name = "userService")
 	private UserService userService;
 
-	@RequestMapping(value = { "/", "/login" })
-	public String home() {
+	@RequestMapping(value = {"/"})
+	public String render_loginPage() {
 		return "WEB-INF/html/loginPage.html";
+	}
+	@RequestMapping(value={"/home"})
+	public String render_homePage(){
+		return "WEB-INF/html/homePage.html";
+	}
+	
+	@RequestMapping(value={"/login"} ,method = { RequestMethod.POST })
+	public String invoke_validateUser(@RequestParam("loginName") String loginName,
+			@RequestParam("password") String password,HttpServletResponse response){
+		boolean validateResult= userService.validateUser(loginName, password, response);
+		if (validateResult) {
+			return "redirect:/home";
+		}
+		else {
+			return "redirect:/";
+		}
+		
 	}
 
 }

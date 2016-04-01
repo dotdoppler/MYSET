@@ -94,3 +94,42 @@ loginName这个字段应该是unique,注册的时候也要验证。
 <p>总的说来，就是让controller去调用服务，而不是在controller里处理业务逻辑，业务是善变的，而controller不是。（Command 命令模式）
 <p>把代码分离出去了，controller看着清爽多了。
 
+###2016/4/1
+####处理登陆
+#### 问题 HTTP Status 405 - Request method 'POST' not supported
+#### 搞笑原来是没加\
+#### 方法中是直接返回一个html页面，这是个静态资源，可能问题出在这里。
+#### 从日志里看一下springMVC是怎样处理请求的：
+2016-04-01 19:37:34 DispatcherServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] DispatcherServlet with name 'springMVC' processing GET request for [/OneLibrary/regist]
+<p> 用'springMVC'这个DispatcherServlet处理GET request for [/OneLibrary/regist]
+2016-04-01 19:37:34 AbstractHandlerMethodMapping.java DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] Looking up handler method for path /regist
+2016-04-01 19:37:34 AbstractHandlerMethodMapping.java DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] Returning handler method [public java.lang.String doppler.controller.RegistController.renderRegistForm()]
+<p>寻找处理改请求的方法，然后返回一个了方法   public java.lang.String doppler.controller.RegistController.renderRegistForm() 
+2016-04-01 19:37:34 AbstractBeanFactory.java DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] Returning cached instance of singleton bean 'registController'
+<p>这里spring返回了一个单例controller，
+2016-04-01 19:37:34 DispatcherServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] Last-Modified value for [/OneLibrary/regist] is: -1
+2016-04-01 19:37:34 AbstractAutowireCapableBeanFactory.java DEBUG [org.springframework.beans.factory.support.DefaultListableBeanFactory] Invoking afterPropertiesSet() on bean with name 'WEB-INF/html/registPage.html'
+2016-04-01 19:37:34 DispatcherServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] Rendering view [org.springframework.web.servlet.view.JstlView: name 'WEB-INF/html/registPage.html'; URL [WEB-INF/html/registPage.html]] in DispatcherServlet with name 'springMVC'
+<p>因为返回的是字符串（其实是想直接返回一个html） 所以交给了一个视图解析器去渲染。可是我并没有配置一个解析器，比如InternalResourceViewResolver，所以用的是默认的JstlView？
+2016-04-01 19:37:34 InternalResourceView.java DEBUG [org.springframework.web.servlet.view.JstlView] Forwarding to resource [WEB-INF/html/registPage.html] in InternalResourceView 'WEB-INF/html/registPage.html'
+<p>这里为什么又发送了一次get请求？405错误问题应该是出现在了这里。 所以是把这个路径WEB-INF/html/registPage.html 作为一个get请求？  
+2016-04-01 19:37:34 DispatcherServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] DispatcherServlet with name 'springMVC' processing GET request for [/OneLibrary/WEB-INF/html/registPage.html]
+2016-04-01 19:37:34 AbstractHandlerMethodMapping.java DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] Looking up handler method for path /WEB-INF/html/registPage.html
+2016-04-01 19:37:34 AbstractHandlerMethodMapping.java DEBUG [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] Did not find handler method for [/WEB-INF/html/registPage.html]
+2016-04-01 19:37:34 AbstractUrlHandlerMapping.java DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] Matching patterns for request [/WEB-INF/html/registPage.html] are [/WEB-INF/html/**]
+2016-04-01 19:37:34 AbstractUrlHandlerMapping.java DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] URI Template variables for request [/WEB-INF/html/registPage.html] are {}
+2016-04-01 19:37:34 AbstractUrlHandlerMapping.java DEBUG [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] Mapping [/WEB-INF/html/registPage.html] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/WEB-INF/html/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3e6fe1b6]]] and 1 interceptor
+2016-04-01 19:37:34 DispatcherServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] Last-Modified value for [/OneLibrary/WEB-INF/html/registPage.html] is: -1
+2016-04-01 19:37:34 DispatcherServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] Null ModelAndView returned to DispatcherServlet with name 'springMVC': assuming HandlerAdapter completed request handling
+2016-04-01 19:37:34 FrameworkServlet.java DEBUG [org.springframework.web.servlet.DispatcherServlet] Successfully completed request 
+
+<p>这是出错的地方：
+2016-04-01 20:52:11 DefaultCorsProcessor.java DEBUG [org.springframework.web.cors.DefaultCorsProcessor] Skip CORS processing, request is a same-origin one
+2016-04-01 20:52:11 AbstractHandlerExceptionResolver.java DEBUG [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver] Resolving exception from handler 
+[ResourceHttpRequestHandler [locations=[ServletContext resource [/WEB-INF/html/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@493d0640]]]: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2016-04-01 20:52:11 AbstractHandlerExceptionResolver.java DEBUG [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] Resolving exception from handler 
+[ResourceHttpRequestHandler [locations=[ServletContext resource [/WEB-INF/html/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@493d0640]]]: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+2016-04-01 20:52:11 DefaultHandlerExceptionResolver.java WARN [org.springframework.web.servlet.PageNotFound] Request method 'POST' not supported
+现在不直接返回一个路径而是重定向就没有问题了
+Skip CORS processing....跨域了？并没有，跳过了
+spring mvc到底是怎么工作的啊

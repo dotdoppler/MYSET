@@ -22,4 +22,6 @@ public interface UserService {
 	String getLoginName(String arg);
 
 	public void checkUniqueLoginName(String loginName_arg, HttpServletResponse response);
+	
+	public boolean validateUser(String loginName,String password,HttpServletResponse response);
 }

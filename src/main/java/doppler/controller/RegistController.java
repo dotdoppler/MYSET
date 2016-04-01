@@ -27,7 +27,7 @@ public class RegistController {
 	public String invoke_registUser(@ModelAttribute User user) {
 
 		userService.save(user);
-		return "redirect:/login";
+		return "redirect:/";
 	}
 
 	@RequestMapping(value = "/checkUniqueLoginName", method = { RequestMethod.GET })

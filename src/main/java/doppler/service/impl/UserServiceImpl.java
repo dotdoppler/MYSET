@@ -62,6 +62,16 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
+	public boolean validateUser(String loginName, String password, HttpServletResponse response) {
+		User user=userDao.getUserByLoginNameandPwd(loginName, password);
+		if(user!=null){
+			System.out.println(user.getLoginName());
+			return true;
+		}
+		return false;
+	};
+	
+	@Override
 	public void checkUniqueLoginName(String loginName_arg, HttpServletResponse response) {
 		String loginName = this.userDao.getLoginName(loginName_arg);
 		if (loginName != null) {

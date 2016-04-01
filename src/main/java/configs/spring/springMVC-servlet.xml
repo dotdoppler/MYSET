@@ -24,7 +24,7 @@
 	
 	<!-- 处理静态资源 -->
 	<mvc:resources location="/resources/" mapping="/resources/**" />
-	<mvc:resources location="WEB-INF/html/" mapping="WEB-INF/html/**"/>
+	<mvc:resources location="/WEB-INF/html/" mapping="/WEB-INF/html/**"/>
 	  
 	<!--viewResolver 视图解析器 
 	<bean id="viewResolver"
