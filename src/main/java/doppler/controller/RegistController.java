@@ -14,6 +14,7 @@ import doppler.service.UserService;
 
 @Controller
 public class RegistController {
+	
 	@Resource
 	private UserService userService;
 

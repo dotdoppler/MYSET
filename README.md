@@ -133,3 +133,13 @@ loginName这个字段应该是unique,注册的时候也要验证。
 现在不直接返回一个路径而是重定向就没有问题了
 Skip CORS processing....跨域了？并没有，跳过了
 spring mvc到底是怎么工作的啊
+
+
+<p>还有一个需要注意的地方，spring的controller默认是单例的，也是非线程安全的，这意味着请求过来其实都是一个实例在处理
+<p>所有为什么要这样做呢？
+<p>优点：可以提高性能
+<p>缺点:由于只有一个Controller的instance，当多个线程调用它的时候，它里面的instance变量就不是线程安全的
+
+#####所以应该尽量避免在controller里面定义实例变量
+#####SpringMVC多线程环境中如何保证对象的安全性？
+<p>"不要使用可变的成员变量，当然可以使用service，因为service基本上都是不可变的，因为service除了各种dao，也没有可变的成员变量" 确实是这样
