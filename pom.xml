@@ -8,7 +8,6 @@
 	<properties>
 		<springversion>4.2.5.RELEASE</springversion>
 		<slf4j.version>1.7.18</slf4j.version>
-		<jackson.version>2.5.4</jackson.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -177,6 +176,12 @@
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
 		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.7.3</version>
+		</dependency>
+
 
 	</dependencies>
 	<build>

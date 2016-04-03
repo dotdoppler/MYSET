@@ -21,15 +21,13 @@
 			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 	<mvc:annotation-driven />
-	
+
+	<!-- JSON View -->
+	<bean
+		class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"></bean>
+
 	<!-- 处理静态资源 -->
 	<mvc:resources location="/resources/" mapping="/resources/**" />
-	<mvc:resources location="/WEB-INF/html/" mapping="/WEB-INF/html/**"/>
-	  
-	<!--viewResolver 视图解析器 
-	<bean id="viewResolver"
-		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<property name="prefix" value="/WEB-INF/jsps/" />
-		<property name="suffix" value=".jsp" />
-	</bean>-->
+	<mvc:resources location="/WEB-INF/html/" mapping="/WEB-INF/html/**" />
+
 </beans>

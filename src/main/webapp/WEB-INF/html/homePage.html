@@ -2,9 +2,43 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link href="resources/css/bootstrap.css" rel="stylesheet">
+<script src="resources/js/jquery-2.2.1.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<link href="resources/css/custom.css" rel="stylesheet">
+<title>OneLibrary</title>
 </head>
-<body>
-<h1>hhhhhyhhhhhh</h1>
+<body onload="">
+	<nav class="navbar navbar-default navbar-fixed-top" id="navbar"
+		role="navigation">
+		<ul class="nav navbar-nav navbar-right" id="navright">
+			<li class="nav-item"></li>
+			<li class="nav-item"><a class="nav-link" href="#" ><span
+					class="glyphicon glyphicon-user"></span> <span id="name">
+					
+					</span>
+			</a></li>
+			<li class="nav-item"><a class="nav-link" href="#"><span
+					class="glyphicon glyphicon-book"></span> Get Books</a></li>
+		</ul>
+	</nav>
+
+	<div class="container-fluid">...</div>
+
 </body>
+<script type="text/javascript">
+	$(window).load(function() {
+		$.ajax({
+			type : "get",
+			url : "getCurrentUser",
+			dataType : "json",
+			success : function(user) {
+				$("#name").html(user.name);
+				$("#email").html(user.loginName);
+				$("#id").html(user.id);
+				$("#regTime").html(user.registTime);
+			}
+		});
+	});
+</script>
 </html>

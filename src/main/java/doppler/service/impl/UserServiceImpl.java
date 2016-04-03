@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Service;
 
@@ -62,10 +63,10 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public boolean validateUser(String loginName, String password, HttpServletResponse response) {
+	public boolean validateUser(String loginName, String password, HttpSession session) {
 		User user=userDao.getUserByLoginNameandPwd(loginName, password);
 		if(user!=null){
-			System.out.println(user.getLoginName());
+			session.setAttribute("currentUser", user);
 			return true;
 		}
 		return false;
