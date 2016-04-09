@@ -2,15 +2,29 @@ package doppler.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
+
+/**用户的实体类
+ * @author dotdoppler@yeah.net
+ * @version v1.0
+ */
 public class User implements Serializable{
 
 	private static final long serialVersionUID = -8403966225572226345L;
-	private Integer id;
+	private int id;
 	private String loginName;
 	private String name;
 	private String password;
 	private Date registTime;
+	private List<Book> books;
+	
+	
+	@Override
+	public String toString() {
+		return "User [loginName=" + loginName + "]";
+	}
+	
 	
 	public String getLoginName() {
 		return loginName;
@@ -30,10 +44,10 @@ public class User implements Serializable{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Integer getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public Date getRegistTime() {
@@ -41,6 +55,13 @@ public class User implements Serializable{
 	}
 	public void setRegistTime(Date registTime) {
 		this.registTime = registTime;
+	}
+	
+	public List<Book> getBooks() {
+		return books;
+	}
+	public void setBooks(List<Book> books) {
+		this.books = books;
 	}
 	public static long getSerialversionuid() {
 		return serialVersionUID;
