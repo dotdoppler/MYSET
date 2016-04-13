@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50708
 File Encoding         : 65001
 
-Date: 2016-04-09 18:25:07
+Date: 2016-04-13 21:49:10
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `book` (
   `name` varchar(255) DEFAULT NULL,
   `author` varchar(255) DEFAULT NULL,
   `press` varchar(255) DEFAULT NULL,
-  `dateOfPublication` datetime DEFAULT NULL,
+  `dateOfPublication` date DEFAULT NULL,
   `type` varchar(255) DEFAULT NULL,
   `cover` varchar(255) DEFAULT NULL,
   `amount` int(11) DEFAULT NULL,
@@ -35,6 +35,8 @@ CREATE TABLE `book` (
 -- ----------------------------
 -- Records of book
 -- ----------------------------
+INSERT INTO `book` VALUES ('1', '苏菲的世界', '乔斯坦·贾德 作家出版社', ' 作家出版社', '2007-10-01', '小说', 'SofiesVerden.jpg', '5', '1');
+INSERT INTO `book` VALUES ('2', '没有色彩的多崎作和他的巡礼之年', '村上春树', '南海出版公司', '2013-10-01', '小说', 'dqz.jpg', '5', '1');
 
 -- ----------------------------
 -- Table structure for book_user
