@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="doppler.dao.BookDao">
-
+	
+	<insert id="saveBookWihtUser"  parameterType="int">
+	INSERT INTO
+	book_user(book_id,user_id,recordDate)
+	VALUES
+	(#{bookId},#{userId},now())
+	</insert>
+	
 </mapper>

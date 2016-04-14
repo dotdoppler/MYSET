@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 import doppler.dao.UserDao;
 import doppler.domain.User;
 import doppler.service.UserService;
-import doppler.util.DateUtil;
+
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -28,7 +28,6 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void save(User user) {
-		user.setRegistTime(DateUtil.getInstance().getDate());
 		userDao.insert(user);
 	}
 

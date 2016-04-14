@@ -161,3 +161,14 @@ spring mvc到底是怎么工作的啊
 
 ###2016/4/13
 ####var target=event.srcElement 获得触发事件的元素
+
+
+###2016/4/14
+####保存book与user对应的关系
+	INSERT INTO
+	book_user(book_id,user_id,recordDate)
+	VALUES
+	(#{bookId},#{userId},now())
+	
+<p>插入时执行函数now()获得当前时间	
+	

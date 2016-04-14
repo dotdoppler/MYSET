@@ -9,7 +9,7 @@
 	<insert id="insert" parameterType="User"  useGeneratedKeys="true" >
 	INSERT INTO 
 	user(id,loginName,name,password,registTime) 
-	values(#{id},#{loginName},#{name},#{password},#{registTime})
+	values(#{id},#{loginName},#{name},#{password},now())
 	</insert>
 	<select id="getAllLoginNames" parameterType="java.lang.String" resultType="java.lang.String">
 	SELECT loginName 
