@@ -9,74 +9,120 @@
 <title>OneLibrary</title>
 </head>
 <body onload="">
-	<nav class="navbar navbar-default navbar-fixed-top" id="navbar"
-		role="navigation">
-		<ul class="nav navbar-nav navbar-right" id="navright">
-			<li class="nav-item"></li>
-			<li class="nav-item"><a class="nav-link" href="#"><span
-					class="glyphicon glyphicon-user"></span> <span id="name"> </span> </a></li>
-			<li class="nav-item"><a class="nav-link" href="#"><span
-					class="glyphicon glyphicon-book"></span> My Books</a></li>
-		</ul>
-	</nav>
 
-	
-	<div class="container marketing">
-	<div class="jumbotron">
-        <h1  style=" text-align:center;">Welcome to OneLibrary!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-      
-      </div>
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-5 col-md-2 book">
-				<div class="thumbnail">
-					<img src="resources/images/cover/SofiesVerden.jpg" >
-					<div class="caption">
-						<h4>苏菲的世界</h4>
-						<input type="hidden" value="1">
-						
-						<p>乔斯坦·贾德 </p>
-						<p>
-							<a href="#" class="btn btn-default btn-sm" role="button" onclick="getBook()">get it</a> 
-							<a href="#" class="btn btn-default btn-sm" role="button">view details</a> 
-						</p>
-						<p id="p"></p>
-					</div>
-				</div>
+			<div class="col-md-12">
+				<nav class="navbar navbar-default navbar-fixed-top" id="navbar"
+					role="navigation">
+					<ul class="nav navbar-nav navbar-right" id="navright">
+						<li class="nav-item"></li>
+						<li class="nav-item"><a class="nav-link" href="#"><span
+								class="glyphicon glyphicon-user"></span> <span id="name">
+							</span> </a></li>
+						<li class="nav-item"><a class="nav-link" href="#"><span
+								class="glyphicon glyphicon-book"></span> My Books</a></li>
+					</ul>
+				</nav>
 			</div>
-			<div class="col-xs-5 col-md-2 book">
-				<div class="thumbnail">
-					<img src="resources/images/cover/dqz.jpg" >
-					<div class="caption">
-						<h4>没有色彩的多崎作和他的巡礼之年</h4>
-						<input type="hidden" value="2">
-						<p>村上春树  </p>
-						<p>
-							<a href="#" class="btn btn-default btn-sm" role="button" onclick="getBook()">get it</a> 
-							<a href="#" class="btn btn-default btn-sm" role="button">view details</a> 
-						</p>
-					</div>
+		</div>
+		<div class="row">
+		
+			<div class="col-md-3">
+			
+				<div class="well sidebar-nav">
+				<div style="text-align: center;"><h3>My Book</h3></div>
+					<ul class="nav nav-list">
+						<li><div class="col-md-3" id="myBook">
+								
+							</div></li>
+					</ul>
+						<ul class="nav nav-list">
+						<li><div class="col-md-3 book">
+								<div class="thumbnail">
+									<img src="resources/images/cover/SofiesVerden.jpg">
+								</div>
+							</div></li>
+					</ul>
+						<ul class="nav nav-list">
+						<li><div class="col-md-3 book">
+								<div class="thumbnail">
+									<img src="resources/images/cover/SofiesVerden.jpg">
+								</div>
+							</div></li>
+					</ul>
 				</div>
+				<!--/.well -->
 			</div>
-			<div class="col-xs-5 col-md-2 book">
-				<div class="thumbnail">
-					<img src="resources/images/cover/dtblw.jpg" >
-					<div class="caption">
-						<h4>真幌站前多田便利屋</h4>
-						<input type="hidden" value="3">
-						<p>三浦紫苑  </p>
-						<p>
-							<a href="#" class="btn btn-default btn-sm" role="button" onclick="getBook()">get it</a> 
-							<a href="#" class="btn btn-default btn-sm" role="button">view details</a> 
-						</p>
+			<div class="col-md-9">
+				<div class="container marketing">
+					<div class="jumbotron">
+						<h1 style="text-align: center;">Welcome to OneLibrary!</h1>
+						<p class="lead">Cras justo odio, dapibus ac facilisis in,
+							egestas eget quam. Fusce dapibus, tellus ac cursus commodo,
+							tortor mauris condimentum nibh, ut fermentum massa justo sit
+							amet.</p>
+
+					</div>
+					<div class="row">
+						<div class="col-xs-5 col-md-2 book">
+							<div class="thumbnail">
+								<img src="resources/images/cover/SofiesVerden.jpg">
+								<div class="caption">
+									<h4>苏菲的世界</h4>
+									<input type="hidden" value="1">
+
+									<p>乔斯坦·贾德</p>
+									<p>
+										<a href="#" class="btn btn-default btn-sm" role="button"
+											onclick="getBook()">get it</a> <a href="#"
+											class="btn btn-default btn-sm" role="button">view details</a>
+									</p>
+									<p id="p"></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-5 col-md-2 book">
+							<div class="thumbnail">
+								<img src="resources/images/cover/dqz.jpg">
+								<div class="caption">
+									<h4>没有色彩的多崎作和他的巡礼之年</h4>
+									<input type="hidden" value="2">
+									<p>村上春树</p>
+									<p>
+										<a href="#" class="btn btn-default btn-sm" role="button"
+											onclick="getBook()">get it</a> <a href="#"
+											class="btn btn-default btn-sm" role="button">view details</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-5 col-md-2 book">
+							<div class="thumbnail">
+								<img src="resources/images/cover/dtblw.jpg">
+								<div class="caption">
+									<h4>真幌站前多田便利屋</h4>
+									<input type="hidden" value="3">
+									<p>三浦紫苑</p>
+									<p>
+										<a href="#" class="btn btn-default btn-sm" role="button"
+											onclick="getBook()">get it</a> <a href="#"
+											class="btn btn-default btn-sm" role="button">view details</a>
+									</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+
+
 </body>
 <script type="text/javascript">
+
 	$(window).load(function() {
 		$.ajax({
 			type : "get",
@@ -89,22 +135,34 @@
 				$("#regTime").html(user.registTime);
 			}
 		});
+		$.ajax({
+			type : "get",
+			url : "currentUserBooks",
+			dataType : "json",
+			success : function(bookList) {
+				console.log(bookList[0].name);
+				var cover = bookList[0].cover;
+				var cover_location = '<div class="thumbnail"><img src="resources/images/cover/'+ cover+'"'+'></div>'
+				console.log(cover_location);
+				$("#myBook").append(cover_location);
+			}
+		});
 	});
-	function getBook(){
-		var target=event.srcElement.parentNode.parentNode.children;
-		var bookId=target[1].value;
+	function getBook() {
+		var target = event.srcElement.parentNode.parentNode.children;
+		var bookId = target[1].value;
 		console.debug(bookId);
 		$.ajax({
 			type : "get",
-			url : "getBook?id="+bookId,
+			url : "getBook?id=" + bookId,
 			dataType : "text",
 			success : function(data) {
 				console.debug(data);
-			
 				
+
 			}
 		});
-		
+
 	}
 </script>
 </html>

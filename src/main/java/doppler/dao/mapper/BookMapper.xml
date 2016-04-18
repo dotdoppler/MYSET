@@ -9,4 +9,10 @@
 	(#{bookId},#{userId},now())
 	</insert>
 	
+	<select id="getBooksByUserId" parameterType="int" resultType="Book">
+	SELECT * FROM 
+	book
+	WHERE id IN
+	(SELECT book_id FROM book_user WHERE user_id=#{userId})
+	</select>
 </mapper>

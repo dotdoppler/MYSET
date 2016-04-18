@@ -2,7 +2,6 @@ package doppler.domain;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 
 /**
@@ -20,9 +19,6 @@ public class Book implements Serializable{
 	private Date dateOfPublication;
 	private String type;
 	private String cover;
-	private int amount;
-	private int status;//图书的状态，有库存为1，否则为0
-	private List<User> users;
 	
 	@Override
 	public String toString() {
@@ -85,30 +81,5 @@ public class Book implements Serializable{
 		this.cover = cover;
 	}
 
-	public int getAmount() {
-		return amount;
-	}
-
-	public void setAmount(int amount) {
-		this.amount = amount;
-	}
-
-	public int getStatus() {
-		return status;
-	}
-
-	public void setStatus(int status) {
-		this.status = status;
-	}
-
-	public List<User> getUsers() {
-		return users;
-	}
-
-	public void setUsers(List<User> users) {
-		this.users = users;
-	}
-	
-	
 	
 }

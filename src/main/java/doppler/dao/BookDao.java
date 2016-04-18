@@ -1,7 +1,11 @@
 
 package doppler.dao;
 
+import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
+
+import doppler.domain.Book;
 
 /**
  *@describe 
@@ -12,4 +16,5 @@ public interface BookDao {
 	
   public void saveBookWihtUser(@Param("bookId") int bookId ,@Param("userId") int userId);
   
+  public List<Book> getBooksByUserId(@Param("userId") int userId);
 }
