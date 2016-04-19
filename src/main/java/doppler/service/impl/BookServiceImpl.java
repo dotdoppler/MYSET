@@ -35,4 +35,13 @@ public class BookServiceImpl implements BookService {
 		return books;
 	}
 
+	
+	public boolean userHasBook(User currentUser, int bookId){
+		if(currentUser != null && bookId !=0){
+			Integer result = bookDao.getBookIdWithUserIdandBookId(bookId, currentUser.getId());
+			if(result != null)
+				return true;
+		}
+		return false;
+	}
 }

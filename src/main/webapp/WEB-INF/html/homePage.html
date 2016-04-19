@@ -20,39 +20,20 @@
 						<li class="nav-item"><a class="nav-link" href="#"><span
 								class="glyphicon glyphicon-user"></span> <span id="name">
 							</span> </a></li>
-						<li class="nav-item"><a class="nav-link" href="#"><span
-								class="glyphicon glyphicon-book"></span> My Books</a></li>
+						
 					</ul>
 				</nav>
 			</div>
 		</div>
 		<div class="row">
-		
+
 			<div class="col-md-3">
-			
-				<div class="well sidebar-nav">
-				<div style="text-align: center;"><h3>My Book</h3></div>
-					<ul class="nav nav-list">
-						<li><div class="col-md-3" id="myBook">
-								
-							</div></li>
-					</ul>
-						<ul class="nav nav-list">
-						<li><div class="col-md-3 book">
-								<div class="thumbnail">
-									<img src="resources/images/cover/SofiesVerden.jpg">
-								</div>
-							</div></li>
-					</ul>
-						<ul class="nav nav-list">
-						<li><div class="col-md-3 book">
-								<div class="thumbnail">
-									<img src="resources/images/cover/SofiesVerden.jpg">
-								</div>
-							</div></li>
-					</ul>
+				
+				<div class="well sidebar-nav" id="sidebar">
+				<div style="text-align: center;"><h3><span
+								class="glyphicon glyphicon-book"></span> Mine</h3></div>
+				<div id="sidebarInner"></div>
 				</div>
-				<!--/.well -->
 			</div>
 			<div class="col-md-9">
 				<div class="container marketing">
@@ -122,7 +103,6 @@
 
 </body>
 <script type="text/javascript">
-
 	$(window).load(function() {
 		$.ajax({
 			type : "get",
@@ -135,31 +115,42 @@
 				$("#regTime").html(user.registTime);
 			}
 		});
-		$.ajax({
-			type : "get",
-			url : "currentUserBooks",
-			dataType : "json",
-			success : function(bookList) {
-				console.log(bookList[0].name);
-				var cover = bookList[0].cover;
-				var cover_location = '<div class="thumbnail"><img src="resources/images/cover/'+ cover+'"'+'></div>'
-				console.log(cover_location);
-				$("#myBook").append(cover_location);
-			}
-		});
+
+		currentUserBooks();
 	});
+	function currentUserBooks() {
+
+				$.ajax({
+					type : "get",
+					url : "currentUserBooks",
+					dataType : "json",
+					success : function(bookList) {
+						
+						var cover;
+						var cover_location;
+						for (var i = 0; i < bookList.length; i++) {
+							cover = bookList[i].cover;
+							cover_location = '<ul class="nav nav-list"><li><div class="col-md-3" ><div class="thumbnail"><img src="resources/images/cover/'+ cover+'"'+'></div></div></li></ul>'
+							$("#sidebarInner").append(cover_location);
+						}
+					}
+				});
+	}
+
 	function getBook() {
 		var target = event.srcElement.parentNode.parentNode.children;
 		var bookId = target[1].value;
-		console.debug(bookId);
 		$.ajax({
 			type : "get",
 			url : "getBook?id=" + bookId,
 			dataType : "text",
 			success : function(data) {
-				console.debug(data);
-				
-
+				if (data == "0")
+					alert("Sorry,you already have this book !");
+				if (data == "1") {
+					$("#sidebarInner").empty();
+					currentUserBooks();
+				}
 			}
 		});
 

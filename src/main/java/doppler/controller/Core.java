@@ -26,9 +26,14 @@ public class Core {
 		
 		if(session != null){
 			 User currentUser = (User)session.getAttribute("currentUser");
-			 bookService.saveBookWihtUser(currentUser, bookId);
+			 if( !bookService.userHasBook(currentUser, bookId)){
+				 bookService.saveBookWihtUser(currentUser, bookId); 
+				 return "1";
+			 }
+			 else 
+			return "0";
 		}
-		return "call back";
+		return "";
 	}
 	
 	
@@ -37,7 +42,7 @@ public class Core {
 		if(session != null){
 			 User currentUser = (User)session.getAttribute("currentUser");
 			 List<Book> myBooks = bookService.getUserBooks(currentUser);
-			 if(myBooks.size() > 0)
+			 if(myBooks != null)
 				 return myBooks;
 		}
 		return null;

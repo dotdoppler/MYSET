@@ -17,4 +17,6 @@ public interface BookDao {
   public void saveBookWihtUser(@Param("bookId") int bookId ,@Param("userId") int userId);
   
   public List<Book> getBooksByUserId(@Param("userId") int userId);
+  
+  public Integer  getBookIdWithUserIdandBookId(@Param("bookId") int bookId ,@Param("userId") int userId);
 }
