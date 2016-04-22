@@ -48,3 +48,72 @@ function handleResult() {
 	}
 	
 }
+
+function getCurrentUser() {
+	$.ajax({
+		type : "get",
+		url : "getCurrentUser",
+		dataType : "json",
+		success : function(user) {
+			$("#name").html(user.name);
+			$("#email").html(user.loginName);
+			$("#id").html(user.id);
+			$("#regTime").html(user.registTime);
+		}
+	});
+}
+function showBooks() {
+	$.ajax({
+		type : "get",
+		url : "showBooks",
+		dataType : "json",
+		success : function(books) {
+		var book;
+		for(var i = 0 ; i < books.length; i++){
+			book = '<div class="col-xs-5 col-md-2" ><div class="thumbnail"><img src="resources/images/cover/' + books[i].cover+'"' + '><div class="caption"><h4>'+ books[i].name +'</h4><input type="hidden" value="'+ books[i].id+'"><p>'+ books[i].author+'</p><p><a href="#" class="btn btn-default btn-sm" role="button" onclick="getBook()">get it</a> <a href="#" class="btn btn-default btn-sm" role="button">view details</a></p></div></div></div>'
+			$("#panel").append(book);
+		}
+		}
+	});
+}
+
+function currentUserBooks() {
+
+	$.ajax({
+				type : "get",
+				url : "currentUserBooks",
+				dataType : "json",
+				success : function(bookList) {
+
+					var cover;
+					var cover_location;
+					for (var i = 0; i < bookList.length; i++) {
+						cover = bookList[i].cover;
+						cover_location = '<ul class="nav nav-list"><li><div class="col-md-3" ><div class="thumbnail"><img  src="resources/images/cover/'+ cover+'"'+'></div></div></li></ul>'
+						$("#sidebarInner").append(cover_location);
+					}
+				}
+			});
+}
+
+function getBook() {
+	var target = event.srcElement.parentNode.parentNode.children;
+	var bookId = target[1].value;
+	$.ajax({
+		type : "get",
+		url : "getBook?id=" + bookId,
+		dataType : "text",
+		success : function(data) {
+			if (data == "0")
+				alert("Sorry,you already have this book !");
+			if (data == "1") {
+				$("#sidebarInner").empty();
+				currentUserBooks();
+			}
+		}
+	});
+
+}
+
+
+

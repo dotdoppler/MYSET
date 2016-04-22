@@ -44,4 +44,9 @@ public class BookServiceImpl implements BookService {
 		}
 		return false;
 	}
+	
+	public List<Book> getAllBooks(){
+		return bookDao.getAll();
+	}
+	
 }

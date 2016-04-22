@@ -47,4 +47,11 @@ public class Core {
 		}
 		return null;
 	}
+	
+	@RequestMapping(value = {"/showBooks"} , method = { RequestMethod.GET})
+	public @ResponseBody List<Book> showBooks(){
+		List<Book> allBooks = bookService.getAllBooks();
+		
+		return allBooks;
+	}
 }
