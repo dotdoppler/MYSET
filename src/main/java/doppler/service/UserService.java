@@ -3,7 +3,6 @@ package doppler.service;
 import java.util.List;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import doppler.domain.User;
 
@@ -24,7 +23,7 @@ public interface UserService {
 
 	public void checkUniqueLoginName(String loginName_arg, HttpServletResponse response);
 	
-	public boolean validateUser(String loginName,String password,HttpSession session);
+	public User validateUser(String loginName,String password);
 	
 	
 }

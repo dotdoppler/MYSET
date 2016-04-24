@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import doppler.domain.User;
 import doppler.service.UserService;
+import doppler.util.GlobalConstants;
 
 @Controller
 
@@ -28,27 +29,27 @@ public class LoginController {
 		return "WEB-INF/html/homePage.html";
 	}
 	
-	@RequestMapping(value={"/login"} ,method = { RequestMethod.GET })
+	@RequestMapping(value={"/login"} ,method = { RequestMethod.POST })
 	public String invoke_validateUser(@RequestParam("loginName") String loginName,
 			@RequestParam("password") String password,HttpSession session){
-		boolean validateResult= userService.validateUser(loginName, password, session);
-		if (validateResult) {
-			
+		User user= userService.validateUser(loginName, password);
+		if (user != null) {
+			user.setPassword("");
+			session.setAttribute(GlobalConstants.CURRENTUSER, user);
 			return "redirect:/home";
 		}
-		else {
-			return "redirect:/";
-		}
+		
+		return "redirect:/";
+		
 		
 	}
 	@RequestMapping(value={"/getCurrentUser"},method={RequestMethod.GET})
 	public @ResponseBody User getCurrentUser(HttpSession session){
-		User user=(User)session.getAttribute("currentUser");
-		if (user!=null) {
+		User user=(User)session.getAttribute(GlobalConstants.CURRENTUSER);
+		if (user!=null) 
 			return user;
-		}else {
-			return null;
-		}
+		
+		return null;
 	}
 	
 

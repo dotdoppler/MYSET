@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import doppler.domain.Book;
 import doppler.domain.User;
 import doppler.service.BookService;
+import doppler.util.GlobalConstants;
 
 @Controller
 public class Core {
@@ -40,7 +41,7 @@ public class Core {
 	@RequestMapping(value = {"/currentUserBooks"} , method = { RequestMethod.GET})
 	public @ResponseBody List<Book> getUserBooks(HttpSession session){
 		if(session != null){
-			 User currentUser = (User)session.getAttribute("currentUser");
+			 User currentUser = (User)session.getAttribute(GlobalConstants.CURRENTUSER);
 			 List<Book> myBooks = bookService.getUserBooks(currentUser);
 			 if(myBooks != null)
 				 return myBooks;
