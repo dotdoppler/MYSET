@@ -35,6 +35,7 @@ public class LoginController {
 		User user= userService.validateUser(loginName, password);
 		if (user != null) {
 			user.setPassword("");
+			session.setAttribute("userStatus", GlobalConstants.USER_STATUS_LOGIN);
 			session.setAttribute(GlobalConstants.CURRENTUSER, user);
 			return "redirect:/home";
 		}

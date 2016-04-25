@@ -21,7 +21,12 @@
 			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 	<mvc:annotation-driven />
-
+	<mvc:interceptors>
+	<mvc:interceptor>
+	<mvc:mapping path="/home"/>
+	<bean class="doppler.interceptor.MyInterceptor"></bean>
+	</mvc:interceptor>
+	</mvc:interceptors>
 	<!-- JSON View -->
 	<bean
 		class="org.springframework.web.servlet.view.json.MappingJackson2JsonView"></bean>
